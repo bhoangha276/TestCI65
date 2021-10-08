@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="display: flex; align-items: center; flex-direction: column;">
+        <div class="boxLinkShotener">
+            <h1>Link Shotener</h1>
+            
+            <p>Enter link:</p>
+            <input id="input" type="text" placeholder="example.com">
+            <button id='btnShortenerLink'>Enter</button>
+
+            <p>Short domain:</p>
+            <button id="btnDomain1">shrtco.de</button>
+            <button id="btnDomain2">9qr.de</button>
+            <button id="btnDomain3">shiny.link</button>
+        </div>
+
+        <div class="boxLinkGenerated">
+            <h1>Link generated</h1>
+            <a id="link" class="link" href="">This here</a>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
